@@ -9,3 +9,11 @@ Curso Practico de JavaScript en platzi.
 - Segundo paso: inplementar formulas en JavaScript
 - Tercer paso: Crear funciones
 - Cuato paso: Integrar JavaScript con HTML
+
+## Taller #2: Porcentajes y descuentos 
+
+- Primer paso: definir las formulas 
+- Segundo paso: inplementar formulas en JavaScript
+- Tercer paso: Crear funciones
+- Cuato paso: Integrar JavaScript con HTML
+
