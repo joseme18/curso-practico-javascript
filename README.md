@@ -1,2 +1,4 @@
 # curso-practico-javascript
-Curso Practico de JavaScript en platzi 
+Curso Practico de JavaScript en platzi.
+
+
