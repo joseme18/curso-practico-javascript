@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiendita Online</title>
+    <style>  
+    body{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+    section{
+        display:grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+    }
+    .form{
+        border: 1px solid peru;
+        border-radius: 20px;
+    }
+    div{
+        width: 200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin:0;
+    }
+    .title{
+           font-size: large; 
+           font-weight: 700;
+           margin-bottom: 16px;
+           text-align: left;
+           font-family: Quicksand;
+           padding: 0 16px;
+        }
+        .subtitle{
+            color: black;
+            font-size: large;
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: 16px;
+            text-align: left;
+            font-family: Quicksand;
+            padding: 0 16px;
+        }
+        .boton{
+            background-color: sandybrown;
+            color: black;
+            font-size: medium;
+            font-weight: 500;
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            font-family: Quicksand;
+            border: none;
+            margin:8px;
+            padding: 8px;
+            cursor: pointer;
+        }
+        .boton:hover{
+            background-color: black;
+            color: sandybrown; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a tu tiendita Online</h1>
+        <p>aqui podras encontrar todo lo que necesites</p>
+    </header>
+    <section>
+        <form class="form">
+            <div class="card">
+                <img class="image" src="https://images.pexels.com/photos/3423985/pexels-photo-3423985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Guitarra">
+                <p id="resultadoPrecio" class="title">$ 120,00</p>
+                <p class="subtitle">Guitar</p>
+            
+                <button class="boton" type="button" onclick="comprar()">Comprar</button>
+            </div>
+        </form>
+        <div>
+        <button class="boton" type="button" onclick="Porcentaje(5);this.disabled = true">Cupon 5% primera compra</button>
+        <button class="boton" type="button" onclick="Porcentaje(10);this.disabled = true">Cupon 10% Especial</button>
+        <button class="boton" type="button" onclick="Porcentaje(5);this.disabled = true">Cupon 5% Holyday</button>
+        <button class="boton" type="button" onclick="Porcentaje(30);this.disabled = true">Cupon 30% To Employees</button>
+        <button class="boton" type="button" onclick="Porcentaje(5);this.disabled = true">Guitars Cupon 5%</button>
+        <button class="boton" type="button" onclick="Porcentaje(15);this.disabled = true">Cupon 15% Bulk</button>
+        </div>
+    </section>
+    <script src="4retocupones.js"></script>
+</body>
+</html>
